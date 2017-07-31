@@ -15,8 +15,8 @@ api
 
 返回
 
-    {
-        id: xxxxxxxx,
+    {
+        id: xxxxxxxx,
         actionName: 'action',
         startDate: 2017-01-01 00:00:00,
         endDate: 2017-01-02 00:00:00,
@@ -28,7 +28,7 @@ api
 
 返回
 
-    {
+    {
         startDate: 2017-01-01 00:00:00,
         endDate: 2017-01-02 00:00:00,
         actionName: 'action',
@@ -50,7 +50,7 @@ api
     
 发送
 
-    {
+    {
         // 为创建者自定义的表单信息
         form: {
             name: '填写的格式，如：字长，类型等',
@@ -69,7 +69,7 @@ api
 
 发送
 
-    {
+    {
         startDate: 2017-01-01 00:00:00,
         endDate: 2017-01-02 00:00:00,
         actionName: 'action',
@@ -89,7 +89,7 @@ api
 
 返回
 
-    {
+    {
         { actionName:'xxx', id:xxxxxxxxxx },
         { actionName:'xxx', id:xxxxxxxxxx },
         { actionName:'xxx', id:xxxxxxxxxx },
@@ -100,7 +100,7 @@ api
 
 返回
 
-    {
+    {
         startDate: 2017-01-01 00:00:00,
         endDate: 2017-01-02 00:00:00,
         actionName: 'action',
@@ -122,7 +122,7 @@ api
 
 发送
 
-    {
+    {
         startDate: 2017-01-01 00:00:00,
         endDate: 2017-01-02 00:00:00,
         actionName: 'action',
@@ -144,15 +144,15 @@ api
 
 返回
 
-    {
-        // 活动信息
+    {
+        // 活动信息
         { action：'name,sex,age...' },
         // 用户信息
         { form：'林广，true，20' },
         { form：'林广，true，20' },
         { form：'林广，true，20' },
-        ...
-    }
+        ...
+    }
     
 下载表单excel：`use` `/creator/download/:formid`
 
