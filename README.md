@@ -52,7 +52,7 @@ api
 
     {
         // 为创建者自定义的表单信息
-        form: {
+        form: {
             name: '填写的格式，如：字长，类型等',
             sex: true,
             ... 
@@ -88,11 +88,11 @@ api
 返回
 
     {
-        { actionName:'xxx', id:xxxxxxxxxx },
+        { actionName:'xxx', id:xxxxxxxxxx },
         { actionName:'xxx', id:xxxxxxxxxx },
         { actionName:'xxx', id:xxxxxxxxxx },
         ...
-    }
+    }
 
 获取特定活动信息：`get` `/creator/change/:formid`
 
@@ -108,7 +108,7 @@ api
             sex: true,
             ...
         },
-        creator: xxxxxxxx,
+        creator: xxxxxxxx,
         description: '简单的表述',
         detail: '详细的表述',
         isDeleted: false,
@@ -144,9 +144,9 @@ api
 
     {
         // 活动信息
-        { action：'name,sex,age...' },
-        // 用户信息
-        { form：'林广，true，20' },
+        { action：'name,sex,age...' },
+        // 用户信息
+        { form：'林广，true，20' },
         { form：'林广，true，20' },
         { form：'林广，true，20' },
         ...
