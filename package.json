@@ -1,0 +1,21 @@
+{
+  "name": "form",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lin <410652421@qq.com>",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "node-xlsx": "^0.10.0",
+    "url": "^0.11.0",
+    "uuid": "^3.1.0"
+  }
+}
