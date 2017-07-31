@@ -47,7 +47,7 @@ api
     }
     
 提交表单：`post` `/user/:formid`
-    
+
 发送
 
     {
@@ -58,12 +58,10 @@ api
             ... 
         },
     }
-    
-    
+
 创建者api
 ---
 添加认证：`use` `/creator`
-
 
 创建活动：`post` `/creator/create`
 
@@ -95,7 +93,7 @@ api
         { actionName:'xxx', id:xxxxxxxxxx },
         ...
     }
-    
+
 获取特定活动信息：`get` `/creator/change/:formid`
 
 返回
@@ -117,7 +115,7 @@ api
         isHidden: false,
         logoUrl: 'xxxxxxxxxx',
     }
-		
+
 修改活动：`post` `/creator/change/:formid`
 
 发送
@@ -137,7 +135,7 @@ api
         isHidden: false,
         logoUrl: 'xxxxxxxxxx',
     }
-    
+
 删除活动：`delete` `/creator/delete/:formid`
 
 查看指定活动所有表单：`get` `/creator/readone/:formid`
@@ -153,7 +151,5 @@ api
         { form：'林广，true，20' },
         ...
     }
-    
+
 下载表单excel：`use` `/creator/download/:formid`
-
-
